@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 def data_render(request):
 
-    d={'name':'MYTH','age':'21'}
+    d={'name':'MYTH','age': 21}
 
     return render(request,"data_render.html",context=d)
