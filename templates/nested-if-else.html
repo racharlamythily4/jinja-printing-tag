@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested-if-else</title>
+</head>
+<body>
+    <h1>nested-if-else</h1>
+    {% if a > b %}
+        {% if a > c %}
+            <h1>a is max {{a}}</h1>
+        {% else %}
+            <h1>c is max {{c}}</h1>
+        {% endif %}
+
+    {% else %}
+        {% if b > c %}
+            <h1>b is max {{b}}</h1>
+        {% else %}
+            <h1>c is max {{c}}</h1>
+        {% endif %}
+    {% endif %}
+</body>
+</html>

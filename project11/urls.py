@@ -19,5 +19,8 @@ from django.urls import path
 from app.views import *
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("data_render/",data_render,name="data_render")
+    path("data_render/",data_render,name="data_render"),
+    path("ifelse/",ifelse,name='ifelse'),
+    path('ifelif/',ifelif,name='ifelif'),
+    path('nestedifelse/',nestedifelse,name='nestedifelse')
 ]
