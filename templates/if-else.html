@@ -6,6 +6,7 @@
     <title>if-else</title>
 </head>
 <body>
+<center>
     <h1>if-else</h1>
 
     {% if a > b %}
@@ -14,5 +15,8 @@
         <h1>b is max{{b}}</h1>
 
     {% endif %}
+
+    <h1><a href="{% url 'forloop' %}">Click here to go back to for loop page </a></h1>
+</center>
 </body>
 </html>

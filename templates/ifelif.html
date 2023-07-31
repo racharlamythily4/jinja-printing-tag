@@ -6,6 +6,7 @@
     <title>if-elif</title>
 </head>
 <body>
+<center>
     <h1>if-elif</h1>
     {% if a > b and a > c %}
         <h1>ais max {{a}}</h1>
@@ -14,5 +15,8 @@
     {% else %}
         <h1>c is max {{c}}</h1>
     {% endif %}
+
+<h1><a href="{% url 'forloop' %}">Click here to go back to for loop page </a></h1>
+</center>
 </body>
 </html>

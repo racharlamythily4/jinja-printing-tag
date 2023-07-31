@@ -6,6 +6,7 @@
     <title>nested-if-else</title>
 </head>
 <body>
+<center>
     <h1>nested-if-else</h1>
     {% if a > b %}
         {% if a > c %}
@@ -21,5 +22,12 @@
             <h1>c is max {{c}}</h1>
         {% endif %}
     {% endif %}
+
+    <h1>{{Junior_Trainers}}</h1>
+
+
+    <h1>Navigating from one html page to another html page</h1>
+    <h1><a href="{% url 'forloop' %}">Click here to go back to for loop page </a></h1>
+</center>
 </body>
 </html>

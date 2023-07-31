@@ -15,7 +15,14 @@
         <h1>My age is {{age}}</h1>
     
 {% endif %}    
+</center>
+<center>
+{% for b in courses %}
+        <h1>{{b}}</h1>
+{% endfor %}
 
+<h1>Navigating from one html page to another html page</h1>
+<h1><a href="{% url 'forloop' %}">Click here to go back to for loop page </a></h1>
     </center>
 </body>
 </html>

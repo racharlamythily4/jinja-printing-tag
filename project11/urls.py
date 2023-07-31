@@ -22,5 +22,6 @@ urlpatterns = [
     path("data_render/",data_render,name="data_render"),
     path("ifelse/",ifelse,name='ifelse'),
     path('ifelif/',ifelif,name='ifelif'),
-    path('nestedifelse/',nestedifelse,name='nestedifelse')
+    path('nestedifelse/',nestedifelse,name='nestedifelse'),
+    path('forloop/',forloop,name='forloop')
 ]

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>For loop</title>
+</head>
+<body>
+<center>
+    <h1>For loop</h1>
+{% for i in My_Details %}
+    <h1>{{i}}</h1>
+{% endfor %}
+</center>
+<center>
+    <h1>Using for loop foir navigating from one page to another page</h1>
+    <h1><a href="{% url 'data_render' %}">Click here to go for data-render page</a></h1>
+    <h1><a href="{% url 'nestedifelse' %}">Click here to go for nested-if-else page</a></h1>
+    <h1><a href="{% url 'ifelse' %}">Click here to go for if-else page</a></h1>
+</center>
+</body>
+</html>
